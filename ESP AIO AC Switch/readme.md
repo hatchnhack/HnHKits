@@ -3,7 +3,7 @@
 ---
 
 Hatchnhack ESP AIO AC switch works with ESP-01, ESP-12E/F, Touch, Qiachip RF and has pinout supporting a wide range of relays with coil voltage 5-6VDC.  
-It is fully programmable and has a very simple connections, AC in - AC out.
+It is fully programmable and has a very simple connections, AC in - AC out. It can be used with alexa and smartphone within a local area network for wireless control of a relay. The circuit can support upto 30A load.
 
 ### Operating Parameters
 1. Input 220 VAC
