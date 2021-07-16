@@ -18,10 +18,6 @@ It is fully programmable and has a very simple connections, AC in - AC out. It c
 
 <img src="./aio_ac_top.svg" alt="HatchnHack ESP AIO AC switch" width="400"/>
 
-### The BOTTOM side
-
-<img src="./aio_ac_bottom.svg" alt="HatchnHack ESP AIO AC switch" width="400"/>
-
 ---
 
 ### Order at HnHCart.com
