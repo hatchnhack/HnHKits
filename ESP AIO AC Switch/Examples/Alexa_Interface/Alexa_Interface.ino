@@ -21,7 +21,7 @@ void changeDeviceState(EspalexaDevice* dev);
 
 //* Parameters
 boolean wifiConnected = false;
-#define MY_DEVICE1 "HnH Switch"
+#define MY_DEVICE1 "GLEAM"
 
 //* Relay pin
 #define RELAY 5
@@ -91,7 +91,7 @@ boolean connectWifi(){
     WiFiManager wm;
     
     //* Starting the WiFi Manager
-    state = wm.autoConnect("HnHSwitch30", "hnh1234");
+    state = wm.autoConnect("HnHSwitch30", "hnh@1234");
     
     if (state) {
         Serial.println("Connected yaay!! ");
