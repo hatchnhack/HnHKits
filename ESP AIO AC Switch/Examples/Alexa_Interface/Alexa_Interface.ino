@@ -9,6 +9,10 @@
  * - - Amazon Alexa App
  */ 
 
+//* Relay Active Low
+#define TURN_ON LOW
+#define TURN_OFF HIGH
+
 #include <ESP8266WiFi.h>
 #include <WiFiManager.h>
 #include <Espalexa.h>
@@ -67,10 +71,10 @@ void changeDeviceState(EspalexaDevice* dev) {
     //* Check the device state
     if (dev->getValue()) {
         Serial.print("ON");
-        digitalWrite(RELAY,HIGH);
+        digitalWrite(RELAY,TURN_ON);
     } else  {
         Serial.println("OFF");
-        digitalWrite(RELAY,LOW);
+        digitalWrite(RELAY,TURN_OFF);
     }
 }
 
